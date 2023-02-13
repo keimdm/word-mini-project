@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    background-color: gray;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section {
+    width: 40%;
+    height: 200px;
+    background-color: lemonchiffon;
+}
+
+#score-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;;
+}
+
+#word-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 100px 0;
+}

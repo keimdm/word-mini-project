@@ -6,10 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
+    <title>Word Game</title>
 </head>
 <body>
-    <p>Hello World</p>
+    <header>
+        <p>Word Game</p>
+        <button id="start-button">Start Game</button>
+    </header>
+    <main>
+        <section id="word-section">
+            <ul id="word-space"></ul>
+        </section>
+        <section id="score-section">
+            <div id="score-box">
+                <p id="win-score"></p>
+                <p id="lose-score"></p>
+            </div>
+            <button id="reset">Reset Score</button>
+            <p id="timer"></p>
+        </section>
+    </main>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
